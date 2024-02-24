@@ -6,6 +6,13 @@
     font-style: normal;
   }
 
+.app-header {
+  background-color: #333;
+  color: #fff;
+  padding: 0px 0;
+  text-align: center;
+}
+
   .send-money-button {
     background-color: #4CAF50; /* Green background */
     color: white; /* White text */
@@ -24,11 +31,12 @@
     background-color: #007bb5; /* Darker blue on hover */
   }
 
-  body {
-    background-color: #f4f4f4; /* Light gray background */
+ body {
+    background-color: #9d9a9a; /* Light gray background */
     margin: 0;
     padding: 20px;
-  }
+  } 
+
   
   .container {
     background-color: white;
@@ -38,4 +46,20 @@
   }
   
 
-  
+header nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+header nav a:hover {
+  color: #ddd;
+  text-decoration: none;
+}

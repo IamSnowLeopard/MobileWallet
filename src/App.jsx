@@ -46,17 +46,52 @@ function App() {
   };
 
   return (
-    <div className="container mt-5">
-      <h1 className="text-center mb-4 app-title">Mobile Money Wallet</h1>
-      <BalanceDisplay balance={balance} />
-      <SendMoneyForm onSend={initiateSendMoney} />
-      <RequestMoneyForm onRequest={initiateRequestMoney} />
-      <MathPuzzleModal
-        isOpen={isModalOpen}
-        onClose={closeModal}
-        onSolve={handleSolve}
+    <>
+      <link
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        rel="stylesheet"
       />
-    </div>
+      <header className="app-header">
+        <nav>
+          <ul>
+            <li>
+              <a href="../coursework.html">Back</a>
+            </li>
+            <li>
+              <a href="#contact">My CV</a>
+            </li>
+            <li>
+              <a
+                href="https://www.linkedin.com/in/rahmat-m-05893b25"
+                target="_blank"
+              >
+                LinkedIn
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://calendar.app.google/wehKkqZjGjnB9WqV7"
+                target="_blank"
+              >
+                Book Appointment
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div className="container mt-5">
+        <h1 className="text-center mb-4 app-title">Mobile Money Wallet</h1>
+        <BalanceDisplay balance={balance} />
+        <SendMoneyForm onSend={initiateSendMoney} />
+        <RequestMoneyForm onRequest={initiateRequestMoney} />
+        <MathPuzzleModal
+          isOpen={isModalOpen}
+          onClose={closeModal}
+          onSolve={handleSolve}
+        />
+      </div>
+    </>
   );
 }
 
