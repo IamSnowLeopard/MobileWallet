@@ -26,6 +26,7 @@ This is a fun, interactive web application that allow users to send and request 
 ## Roadmap to future improvements:
 
 1. Allow users to select whether they want to send or request money first before displaying the input form
+2. Add transaction history
 
 ## Support:
 
