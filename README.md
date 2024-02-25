@@ -13,6 +13,7 @@ This is a fun, interactive web application that allow users to send and request 
 - Send and Request Money
 - Authorize the transaction by solving a math problem
 - Update the account balance
+- Display an error message if funds are insufficient
 
 ## GitHub Pages:
 
@@ -24,7 +25,7 @@ This is a fun, interactive web application that allow users to send and request 
 
 ## Roadmap to future improvements:
 
-1. TBD
+1. Allow users to select whether they want to send or request money first before displaying the input form
 
 ## Support:
 
